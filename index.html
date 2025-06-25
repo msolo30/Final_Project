@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus Friend</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>LOCK IN TIME!</h1>
+
+  <div class="section">
+    <h2>📝 To-Do List (Lock in)</h2>
+    <input type="text" id="taskInput" placeholder="New task..." />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <div class="section">
+    <h2>💬 Lock In Quote</h2>
+    <button onclick="showQuote()">Get a Quote</button>
+    <p id="quoteDisplay"></p>
+  </div>
+
+  <div class="section">
+    <h2>⏲️ Countdown Timer so you Lock In</h2>
+    <input type="number" id="minutesInput" placeholder="Minutes" />
+    <button onclick="startTimer()">Start Timer</button>
+    <p id="timerDisplay"></p>
+  </div>
+
+  <div class="section">
+    <h2>🌓 Theme Toggle</h2>
+    <h4>So your eyes dont hurt when you Lock In</h4>
+    <button onclick="toggleTheme()">Toggle Light/Dark</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
